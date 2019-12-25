@@ -1,0 +1,22 @@
+{
+    "name": "monem/phplight",
+    "description": "php framework",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^7.1.3",
+        "filp/whoops": "^2.5",
+        "ext-json": "*",
+        "jenssegers/blade": "^1.2",
+        "rakit/validation": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phplight\\" : "src/"
+        },
+        "files": [
+            "src/Helpers/helper.php"
+        ]
+    }
+}
